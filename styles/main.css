@@ -1,0 +1,29 @@
+html {
+    background-color: lightgray;
+}
+
+.footer {
+    padding-top: 350px;
+}
+
+.logo {
+    padding: 16px;
+    width: 128px;
+    border-radius: 15%;
+}
+
+.pageTitle {
+    padding-left: 32px;
+}
+
+.footer {
+    padding-left: 32px;
+}
+
+.pageContent {
+    padding-left: 32px;
+}
+
+p, a, h1, h2, li {
+    font-family: Arial, Helvetica, sans-serif
+}
