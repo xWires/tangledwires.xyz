@@ -25,3 +25,18 @@ body {
 p, a, h1, h2, li {
     font-family: Arial, Helvetica, sans-serif
 }
+
+#meteor_img {
+    width: 25%;
+    height: 25%;
+}
+
+#random_announcements_img {
+    width: 30%;
+    height: 30%;
+}
+
+#poweritems_img {
+    width: 25%;
+    height: 25%;
+}
