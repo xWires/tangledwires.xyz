@@ -1,9 +1,10 @@
-html {
+body {
     background-color: lightgray;
 }
 
 .footer {
-    padding-top: 350px;
+    padding-top: 250px;
+    padding-left: 32px;
 }
 
 .logo {
@@ -16,12 +17,9 @@ html {
     padding-left: 32px;
 }
 
-.footer {
-    padding-left: 32px;
-}
-
 .pageContent {
     padding-left: 32px;
+    padding-right: 32px;
 }
 
 p, a, h1, h2, li {
