@@ -6,6 +6,11 @@ p, a, h1, h2, li {
     font-family: Arial, Helvetica, sans-serif
 }
 
+table, tbody, tr, td {
+    padding: -4px;
+    margin: -4px;
+}
+
 .footer {
     padding-top: 250px;
     padding-left: 32px;
