@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projects - Meteor</title>
+        <link rel="stylesheet" href="/styles/main.css">
+        <link rel="icon" href="/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/2dd1bad15b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <a class="link_button" href="/">Home</a>
+            <a class="link_button" href="/projects">Projects</a>
+        </div>
+        <div class="titleContainer" style="padding: 32px;">
+            <div class="pageTitle" style="background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(211, 211, 211, 1)),url('/images/poweritems_banner.png'); background-size: cover; padding: 20px;">
+                <h2 style="color: white;">PowerItems</h2>
+            </div>
+        </div>
+        <div class="pageContent">
+            <p>PowerItems is a Spigot plugin that lets you create nice looking items!</p>
+            <br>
+            <h3>Usage: </h3>
+            <p>/createitem &lt;itemID&gt; &lt;itemMaterial&gt; &lt;damage&gt; &lt;rarity&gt; &lt;itemName&gt;</p>
+            <p>For rarity see the "Default rarities" section below. For itemName, you can use colour codes. itemMaterial is what the item will be, for example "diamond_sword" or "golden_axe".</p>
+            <p>When you create an item using this command, it will be saved to the config file, you can then get more of this item using:</p>
+            <p>/getitem &lt;itemID&gt;</p>
+            <p>Using /commandtrigger, you can add a command or chat message to the item you are holding that will run when you right click it. Do not include the / when adding a command.</p>
+            <p>Example: /commandtrigger add command teleport ^ ^ ^5</p>
+            <p>/commandtrigger &lt;add|clear|list&gt; &lt;chat|command&gt; &lt;text&gt;</p>
+            <h3>Default rarities:</h3>
+            <li>Common</li>
+            <li>Uncommon</li>
+            <li>Rare</li>
+            <li>Epic</li>
+            <li>Legendary</li>
+            <li>Mythic</li>
+            <p>You can put something else for rarity and it will use that instead, however you cannot use spaces, colour codes are supported.</p>
+            <br>
+            <p>This plugin uses bStats for analytics, the data collected is completely anonymous. If you would like to disable bStats, you can do so in the bStats config file.</p>
+            <p>From the bStats website: </p>
+            <p>"bStats does not collect any personal data. Most of the collected data is information about the plugin's server like player count, online mode, Minecraft version, Java version, and more. All data gets sent and stored completely anonymously. Server IPs are only stored for ratelimiting and not linked to the data. All data that is collected is publicly visible. If you are interested in what data is collected for your Minecraft server, take a look at the pages for the plugins on your server. Please note that plugin authors can also send data that is customized for their plugin."</p>
+            <h2>Links:</h2>
+            <table>
+                <tr>
+                    <td>
+                        <a class="link_button" href="https://ci.tangledwires.xyz/job/PowerItems"><i class="fa-solid fa-download"></i> Download</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="link_button" href="https://github.com/TangledWiresYT/PowerItems"><i class="fa-solid fa-code"></i> Source Code</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="link_button" href="https://github.com/TangledWiresYT/PowerItems"><i class="fa-solid fa-link"></i> SpigotMC Page</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">
+            <p>Copyright &copy; 2024 TangledWiresYT - Source code available under the MIT license <a href="https://github.com/TangledWiresYT/tangledwires.xyz">here</a></p>
+        </div>
+    </body>
+</html>
