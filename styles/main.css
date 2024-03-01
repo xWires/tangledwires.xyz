@@ -66,6 +66,10 @@ table, tbody, tr, td {
     padding-left: 32px;
 }
 
+#header > * {
+    margin: 2px;
+}
+
 #links {
     display: flex;
     flex-direction: column;
