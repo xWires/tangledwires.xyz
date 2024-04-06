@@ -11,6 +11,11 @@ table, tbody, tr, td {
     margin: -4px;
 }
 
+code {
+    background-color: rgb(225, 225, 225) !important;
+    border-radius: 15px;
+}
+
 .footer {
     padding-top: 250px;
     padding-left: 32px;

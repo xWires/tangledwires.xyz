@@ -6,6 +6,10 @@
         <link rel="icon" href="/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/2dd1bad15b.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/yaml.min.js"></script>
+        <script>hljs.highlightAll();</script>
     </head>
     <body>
         <div id="header">
@@ -27,7 +31,10 @@
             <p>"{victim}" will be replaced with the name of the player that was killed.</p>
             <p>"{attacker}" will be replaced with the name of the player/mob that killed the player.</p>
             <p>You can also use colour codes to change how the text looks.</p>
-            <br>
+            <pre><code>messages:
+    ENTITY_ATTACK:
+    - 'Ouch! {victim} was killed by {attacker}!'
+    - '{victim} isn't very good at Minecraft, they were just killed by {attacker}</code></pre>
             <p>This plugin uses bStats for analytics, the data collected is completely anonymous. If you would like to disable bStats, you can do so in the bStats config file.</p>
             <p>From the bStats website: </p>
             <p>"bStats does not collect any personal data. Most of the collected data is information about the plugin's server like player count, online mode, Minecraft version, Java version, and more. All data gets sent and stored completely anonymously. Server IPs are only stored for ratelimiting and not linked to the data. All data that is collected is publicly visible. If you are interested in what data is collected for your Minecraft server, take a look at the pages for the plugins on your server. Please note that plugin authors can also send data that is customized for their plugin."</p>
