@@ -12,8 +12,7 @@ table, tbody, tr, td {
 }
 
 code {
-    background-color: rgb(225, 225, 225) !important;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .footer {
