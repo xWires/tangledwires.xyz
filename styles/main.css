@@ -11,6 +11,10 @@ table, tbody, tr, td {
     margin: -4px;
 }
 
+pre {
+    display: flex;
+}
+
 code {
     border-radius: 10px;
 }
