@@ -74,6 +74,10 @@ table, tbody, tr, td {
     width: 480px;
 }
 
+#deathmsgedit_img {
+    width: 480px;
+}
+
 #header {
     display: flex;
     flex-direction: row;
