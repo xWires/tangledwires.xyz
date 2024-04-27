@@ -8,10 +8,7 @@
         <script src="https://kit.fontawesome.com/2dd1bad15b.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div id="header">
-            <a class="link_button" href="/">Home</a>
-            <a class="link_button" href="/projects">Projects</a>
-        </div>
+        <iframe id="header_frame" src="/header.html" sandbox="allow-same-origin allow-top-navigation" onload="this.style.height=(this.contentWindow.document.body.scrollHeight+16)+'px';" width="100%"></iframe>
         <div class="titleContainer" style="padding: 32px;">
             <div class="pageTitle" style="background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(211, 211, 211, 1)),url('/images/random_announcements_banner.png'); background-size: cover; padding: 20px;">
                 <h2 style="color: white;">Random Announcements</h2>

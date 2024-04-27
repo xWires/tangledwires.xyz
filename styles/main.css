@@ -90,8 +90,12 @@ code {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 20px;
-    padding-left: 32px;
+    padding-left: 22px;
+}
+
+#header_frame {
+    border: none;
+    padding-top: 15px;
 }
 
 #header > * {
