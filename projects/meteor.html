@@ -6,6 +6,11 @@
         <link rel="icon" href="/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/2dd1bad15b.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/highlight/styles/monokai-sublime.min.css">
+        <script src="/highlight/highlight.min.js"></script>
+        <script src="/highlight/languages/powershell.min.js"></script>
+        <script src="/highlight/languages/bash.min.js"></script>
+        <script>hljs.highlightAll();</script>
     </head>
     <body>
         <iframe id="header_frame" src="/header.html" sandbox="allow-same-origin allow-top-navigation" onload="this.style.height=(this.contentWindow.document.body.scrollHeight+16)+'px';" width="100%"></iframe>
@@ -29,6 +34,21 @@
             <li>Right Trigger for fire</li>
             <li>X for reversing</li>
             <li>Options to pause</li>
+            <p>To change the way the game works, you can use environment variables. Here is a list of environment variables you can set:</p>
+            <li>METEOR_P_ACCELERATION: Used to set how fast the player accelerates, the default is 5</li>
+            <li>METEOR_P_DECELERATION: Used to set how fast the player decelerates, the default is 0.5</li>
+            <li>METEOR_P_MAXSPEED: Used to set the maximum speed of the player, the default is 200</li>
+            <li>METEOR_P_ROTSPEED: Used to set how fast the player rotates, the default is 3</li>
+            <li>METEOR_P_FIRECOOLDOWN: Used to set the cooldown for firing, default is 0.5</li>
+            <p>To use these on Windows, right click in the folder Meteor is in, and click "Open in Terminal". The following example shows what to type to change the firing cooldown, but you can change it to something else if you would like:</p>
+            <pre><code>$env:METEOR_P_FIRECOOLDOWN = 0.1</code></pre>
+            <p>You can do this multiple times to change multiple different variables. Then run Meteor like this:</p>
+            <pre><code>.\Meteor-Windows-v1.2.exe # Or if your version of Meteor is named something else, change it to that, make sure to include the '.\' though</code></pre>
+            <p>On Linux you can set variables like this:</p>
+            <pre><code>export METEOR_P_FIRECOOLDOWN=0.1</code></pre>
+            <p>Again, you can do this multiple times. Then run Meteor like this:</p>
+            <pre><code>./Meteor-Linux-v1.2.x86_64</code></pre>
+            <p>These changes are (intentionally) not permanent so if you close the terminal then you will have to do it again next time.</p>
             <br>
             <p>Meteor is licensed under the GPLv3 license, and the "Vector Battle" font is licensed under a seperate license which can be found in the "vector_battle" folder in the source code.</p>
             <br>
