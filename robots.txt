@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /
+User-Agent: Imagesiftbot
+Disallow: /
+User-Agent: Googlebot
+Allow: /
