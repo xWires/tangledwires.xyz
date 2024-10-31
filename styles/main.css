@@ -86,6 +86,10 @@ code {
     width: 480px;
 }
 
+#formateverywhere_img {
+    width: 480px;
+}
+
 #header {
     display: flex;
     flex-direction: row;
