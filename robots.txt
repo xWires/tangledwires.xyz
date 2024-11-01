@@ -4,3 +4,5 @@ User-Agent: Imagesiftbot
 Disallow: /
 User-Agent: Googlebot
 Allow: /
+User-Agent: CloudflareObservatory
+Allow: /
