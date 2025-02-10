@@ -6,3 +6,5 @@ User-Agent: Googlebot
 Allow: /
 User-Agent: CloudflareObservatory
 Allow: /
+User-Agent: ChatGPT-User
+Allow: /
