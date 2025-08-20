@@ -1,0 +1,46 @@
+<script>
+</script>
+
+<svelte:head>
+    <title>DeathMsgEdit - Projects - xWires</title>
+</svelte:head>
+
+<div class="titleContainer" style="padding: 32px;">
+    <div class="pageTitle" style="background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(211, 211, 211, 1)),url('/images/deathmsgedit_banner.png'); background-size: cover; padding: 20px;">
+        <h2 style="color: white;">DeathMsgEdit</h2>
+    </div>
+</div>
+<div class="pageContent">
+    <p>DeathMsgEdit lets you edit the death messages on your server.</p>
+    <h3>Commands:</h3>
+    <li>/deathmsgedit reload - Reload the config</li>
+    <h3>How to use:</h3>
+    <p>When you start the server with the plugin installed for the first time, it will generate an example config, which you can use to edit or add more death messages.</p>
+    <p>If there are multiple entries for the same death cause, a random one will be selected each time.</p>
+    <p>"{`{victim}`}" will be replaced with the name of the player that was killed.</p>
+    <p>"{`{attacker}`}" will be replaced with the name of the player/mob that killed the player.</p>
+    <p>If you have PlaceholderAPI installed, you can also use placeholders in death messages.</p>
+    <p>You can also use colour codes to change how the text looks.</p>
+    <pre><code>{`messages:
+    ENTITY_ATTACK:
+    - 'Ouch! {victim} was killed by {attacker}!'
+    - '{victim} isn't very good at Minecraft, they were just killed by {attacker}'`}</code></pre>
+    <p>This plugin uses bStats for analytics, the data collected is completely anonymous. If you would like to disable bStats, you can do so in the bStats config file.</p>
+    <p>From the bStats website: </p>
+    <p>"bStats does not collect any personal data. Most of the collected data is information about the plugin's server like player count, online mode, Minecraft version, Java version, and more. All data gets sent and stored completely anonymously. Server IPs are only stored for ratelimiting and not linked to the data. All data that is collected is publicly visible. If you are interested in what data is collected for your Minecraft server, take a look at the pages for the plugins on your server. Please note that plugin authors can also send data that is customized for their plugin."</p>
+    <h2>Links:</h2>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <a class="link_button" href="https://modrinth.com/plugin/deathmsgedit"><i class="fa-solid fa-download"></i> Download on Modrinth</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a class="link_button" href="https://github.com/xWires/DeathMsgEdit"><i class="fa-solid fa-code"></i> Source Code</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

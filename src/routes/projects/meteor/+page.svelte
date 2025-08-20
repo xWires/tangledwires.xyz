@@ -1,0 +1,68 @@
+<script>
+</script>
+
+<svelte:head>
+    <title>Meteor - Projects - xWires</title>
+</svelte:head>
+
+<div class="titleContainer" style="padding: 32px;">
+    <div class="pageTitle" style="background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(211, 211, 211, 1)),url('/images/meteor_banner.png'); background-size: cover; padding: 20px;">
+        <h2 style="color: white;">Meteor</h2>
+    </div>
+</div>
+<div class="pageContent">
+    <p>Meteor is a game based on the 1979 arcade game by Atari, "Asteroids". Meteor is developed solely by me in the Godot game engine.</p>
+    <p>Controls (Keyboard and Mouse)</p>
+    <li>W or Right Click is thrust</li>
+    <li>A is turn left</li>
+    <li>S for reversing</li>
+    <li>D for turning right</li>
+    <li>Left Click to fire</li>
+    <li>ESC to pause</li>
+    <p>Controls (Controller)</p>
+    <li>Left Stick / D-Pad for turning</li>
+    <li>A/B for thrust</li>
+    <li>Right Trigger for fire</li>
+    <li>X for reversing</li>
+    <li>Options to pause</li>
+    <p>To change the way the game works, you can use environment variables. Here is a list of environment variables you can set:</p>
+    <li>METEOR_P_ACCELERATION: Used to set how fast the player accelerates, the default is 5</li>
+    <li>METEOR_P_DECELERATION: Used to set how fast the player decelerates, the default is 0.5</li>
+    <li>METEOR_P_MAXSPEED: Used to set the maximum speed of the player, the default is 200</li>
+    <li>METEOR_P_ROTSPEED: Used to set how fast the player rotates, the default is 3</li>
+    <li>METEOR_P_FIRECOOLDOWN: Used to set the cooldown for firing, default is 0.5</li>
+    <li>METEOR_G_FLAGS: A comma separated list of flags to set that change things about the game, the current list of game flags is: nodamage, nometeors, and noscoresave. "nodamage" disables collision between the player and meteors, "nometeors" stops meteors from spawning, "noscoresave" prevents the game from saving your high score, and "wrapbullets" makes bullets wrap around the screen like the player does. Make sure you surround the list in quotes.</li>
+    <p>To use these on Windows, right click in the folder Meteor is in, and click "Open in Terminal". The following example shows what to type to change the firing cooldown, but you can change it to something else if you would like:</p>
+    <pre><code>$env:METEOR_P_FIRECOOLDOWN = 0.1</code></pre>
+    <p>You can do this multiple times to change multiple different variables. Then run Meteor like this:</p>
+    <pre><code>.\Meteor-Windows-v1.2.exe # Or if your version of Meteor is named something else, change it to that, make sure to include the '.\' though</code></pre>
+    <p>On Linux you can set variables like this:</p>
+    <pre><code>export METEOR_P_FIRECOOLDOWN=0.1</code></pre>
+    <p>Again, you can do this multiple times. Then run Meteor like this:</p>
+    <pre><code>./Meteor-Linux-v1.2.x86_64</code></pre>
+    <p>These changes are (intentionally) not permanent so if you close the terminal then you will have to do it again next time.</p>
+    <p>Your settings and high score are stored in "C:/Users/[name]/AppData/Roaming/Godot/app_userdata/Meteor/options.cfg" on Windows, and on Linux it is stored at "/home/[name]/.local/share/godot/app_userdata/Meteor/options.cfg".</p>
+    <br>
+    <p>Meteor is licensed under the GPLv3 license, and the "Vector Battle" font is licensed under a seperate license which can be found in the "vector_battle" folder in the source code.</p>
+    <br>
+    <h2>Links:</h2>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <a class="link_button" href="https://github.com/xWires/Meteor/releases/download/v1.3.4/Meteor-Windows-v1.3.4.exe"><i class="fa-brands fa-windows"></i> Download for Windows</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a class="link_button" href="https://github.com/xWires/Meteor/releases/download/v1.3.4/Meteor-Linux-v1.3.4.x86_64"><i class="fa-brands fa-linux"></i> Download for Linux</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a class="link_button" href="https://github.com/xWires/Meteor/"><i class="fa-solid fa-code"></i> Source Code</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
