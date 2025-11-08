@@ -46,7 +46,7 @@
             </tr>
             <tr>
                 <td>
-                    <a class="link_button" href="https://ko-fi.com/tangledwires"><i class="fa-solid fa-sterling-sign"></i> Ko-fi</a>
+                    <a class="link_button" href="https://ko-fi.com/xwires"><i class="fa-solid fa-sterling-sign"></i> Ko-fi</a>
                 </td>
             </tr>
             <tr>
