@@ -15,12 +15,13 @@
 </div>
 <div class="pageContent">
     <p>Hi, I'm TangledWires (aka xWires). I enjoy coding random things and playing games such as Minecraft, Noita, Portal 2 and Splitgate. The programming languages I use are: </p>
-    <li><i class="fa-brands fa-java"></i> Java </li>
+    <li><i class="fa-brands fa-java"></i> Java</li>
     <li><i class="fa-brands fa-python"></i> Python</li>
     <li><i class="fa-brands fa-html5"></i> HTML</li>
     <li><i class="fa-solid fa-terminal"></i> Bash</li>
     <li><i class="fa-solid fa-hashtag"></i> C#</li>
     <li><i class="fa-brands fa-rust"></i> Rust</li>
+    <li><i class="fa-brands fa-js"></i> JavaScript/TypeScript</li>
     <h2>Links: </h2>
     <table>
         <tbody>
