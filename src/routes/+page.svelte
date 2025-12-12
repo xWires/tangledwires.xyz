@@ -36,16 +36,6 @@
             </tr>
             <tr>
                 <td>
-                    <a class="link_button" href="https://ci.tangledwires.xyz/"><i class="fa-brands fa-jenkins"></i> Jenkins</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a class="link_button" href="https://nexus.tangledwires.xyz/"><i class="fa-solid fa-database"></i> Nexus Repo</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
                     <a class="link_button" href="https://ko-fi.com/xwires"><i class="fa-solid fa-sterling-sign"></i> Ko-fi</a>
                 </td>
             </tr>
